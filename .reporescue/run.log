@@ -1,0 +1,92 @@
+127.0.0.1 - - [25/Apr/2026 13:24:59] "GET /api/items HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:24:59] "GET /api/items/1 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:24:59] "[33mGET /api/items/99 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Apr/2026 13:24:59] "[32mGET /old-home HTTP/1.1[0m" 302 -
+127.0.0.1 - - [25/Apr/2026 13:24:59] "GET / HTTP/1.1" 200 -
+test_index_template_is_used (__main__._DemoTestCase.test_index_template_is_used) ... ok
+test_json_response_mixin (__main__._DemoTestCase.test_json_response_mixin) ... ok
+test_message_flashed (__main__._DemoTestCase.test_message_flashed) ... ok
+test_redirect_relative_location (__main__._DemoTestCase.test_redirect_relative_location) ... ok
+test_status_helpers (__main__._DemoTestCase.test_status_helpers) ... ok
+test_template_disabled_but_signal_sent (__main__._NoRenderTestCase.test_template_disabled_but_signal_sent) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.046s
+
+OK
+flask_testing: /home/zhihao/hdd/RepoRescue_Clean/repos/rescue_sonnet/flask-testing/flask_testing/__init__.py
+[A] Real HTTP server (werkzeug.make_server) ...
+    OK
+[B] flask-testing library API (TestCase + assertions) ...
+    OK — ran 6 tests via flask-testing API
+[C] flask-testing internal helpers (utils._empty_render, _make_test_response) ...
+    OK
+
+USABLE
+test_api_404_path (__main__.TodoTests.test_api_404_path) ... ok
+test_api_list_json (__main__.TodoTests.test_api_list_json) ... ok
+test_create_redirect_and_flash (__main__.TodoTests.test_create_redirect_and_flash) ... ok
+test_create_validation_flash (__main__.TodoTests.test_create_validation_flash) ... ok
+test_home_renders_seed (__main__.TodoTests.test_home_renders_seed) ... ok
+test_status_helpers_chain (__main__.TodoTests.test_status_helpers_chain) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.028s
+
+OK
+SCENARIO_OK (6 tests)
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.034s
+
+OK
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+127.0.0.1 - - [25/Apr/2026 13:26:34] "GET /api HTTP/1.1" 200 -
+flask_testing: /home/zhihao/hdd/RepoRescue_Clean/repos/rescue_sonnet/flask-testing/flask_testing/__init__.py
+
+[hunt] concurrency: 2 real servers + 20 parallel reqs each ...
+    OK — 40/40 concurrent requests succeeded across 2 real servers
+[hunt] blinker weakref + gc probe ...
+    NOTE: blinker dropped bound-method receiver after gc (weak ref) — flask-testing avoids this because TestCase keeps `self` alive throughout the test lifecycle, so it's not a real bug, but it would bite a user that connects then drops the test instance.
+[hunt] _empty_render arg order ...
+    OK — signature matches Flask 3 templating._render(app, template, context)
+
+BUG_HUNT_DONE — no regressions found, see notes above
